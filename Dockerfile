@@ -4,6 +4,6 @@ MAINTAINER Miguel Delgadillo <mdelgadi@redhat.com>
 
 USER root
 
-RUN yum -y install skopeo openscap-scanner
+RUN yum -y install skopeo openscap-scanner sshpass
 
 USER 1001
